@@ -1,6 +1,13 @@
 # RoboticsND_Where_Am_I
 Build and implement the Adaptive Monte Carlo Localization package on my robot (based on RoboticsND_Build_My_World)
 
+## Localization of my_robot
+<img src="Pictures/t0.PNG">
+<img src="Pictures/t1.png">
+<img src="Pictures/t2.png">
+<img src="Pictures/t3.png">
+<img src="Pictures/t4.png">
+
 ## Instructions
 
 1. Create and initialize a catkin workspace `catkin_ws`
