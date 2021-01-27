@@ -15,7 +15,15 @@ Build and implement the Adaptive Monte Carlo Localization package on my robot (b
 > $ cd /***preferred directory***/catkin_ws/src  
 > $ catkin_init_workspace  
 
-2. Clone this repo in a different directory and move the 'ball_chaser' and 'my_robot' package to `src`
+2. Clone this repo into the `src` directory
+> $ cd /***preferred directory***/catkin_ws/src  
+> $ git clone https://github.com/RoboticsND_Where_Am_I .
+
+3. Due to the large size of the map.pgm file, they were zipped and will need to be unzipped
+> $ cd /***preferred directory***/catkin_ws/src/my_robot/maps  
+> $ unzip map.zip && rm map.zip  
+> $ cd /***preferred directory***/catkin_ws/src/pgm_map_creator/maps  
+> $ unzip map.zip && rm map.zip  
 
 3. Go back to the `catkin_ws` directory and and launch the world
 > $ cd /catkin_ws  
